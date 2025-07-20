@@ -2,8 +2,8 @@
 #include <string.h>
 #include <ctype.h>
 
-const char* str_strip(const char* s){
-    const char* new_word;
+char* str_strip(char* s){
+    char* new_word;
     static char buffer[100]; 
     int i = 0;
 
@@ -36,4 +36,14 @@ const char* str_strip(const char* s){
     }
 
     return s;
+}
+
+char* str_lower(char* s){
+    static char buffer[100]; 
+    strncpy(buffer, s, strlen(s));
+    for(int i = 0; i < strlen(buffer); i++){
+        buffer[i] = tolower(buffer[i]);
+    }
+
+    return buffer;
 }
