@@ -64,6 +64,7 @@ char** file_read_lines(const char* filename, int* out_count) {
         }
         count++;
     }
+    
     fclose(file);
     *out_count = count;
     return lines;
