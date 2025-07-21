@@ -24,4 +24,6 @@ Matrix_t* mat_transpose(Matrix_t* a);
 double mat_determinant(Matrix_t* m);
 Matrix_t* mat_inverse(Matrix_t* m);
 
+int issize_mat(Matrix_t* a, Matrix_t* b);
+
 #endif
