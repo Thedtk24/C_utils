@@ -237,9 +237,7 @@ int main() {
 
     char* txt = str_upper("bonjour");
     printf("%s\n", txt);
-    free(txt);
 
-    df_free(df);
     return 0;
 }
 ```
