@@ -1,6 +1,6 @@
-# PyC_utils
+# C_utils
 
-**PyC** est une bibliothèque C fournissant des utilitaires pour la manipulation de fichiers, de chaînes de caractères, de calculs mathématiques courants, ainsi qu’une structure de type DataFrame pour la manipulation de données tabulaires.
+**C_utils** est une bibliothèque C fournissant des utilitaires pour la manipulation de fichiers, de chaînes de caractères, de calculs mathématiques courants, ainsi qu’une structure de type DataFrame pour la manipulation de données tabulaires.
 
 ---
 
@@ -34,7 +34,6 @@ ou
 make
 ./a.out
 ```
-
 
 Pour nettoyer les fichiers compilés :
 
