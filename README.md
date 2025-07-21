@@ -30,15 +30,15 @@ Le fichier principal **`main.c`** doit être placé à la racine du projet.
 Compilez avec :
 
 ```sh
-gcc -Iinclude src/*.c main.c -o c_utils
-./c_utils
+gcc -Iinclude src/*.c main.c -o <nom_executable>
+./<nom_executbale>
 ```
 
 ou avec le **Makefile** fourni :
 
 ```sh
 make
-./c_utils
+./a.out
 ```
 
 Pour nettoyer les fichiers compilés :
