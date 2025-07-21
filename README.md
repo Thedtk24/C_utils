@@ -1,4 +1,3 @@
-
 # **C_utils**
 
 **C_utils** est une bibliothèque C fournissant des utilitaires variés :
@@ -6,7 +5,7 @@ Manipulation de **fichiers**
 Traitement des **chaînes de caractères**
 Fonctions **mathématiques** courantes
 Structures de type **DataFrame (`cPandas`)** pour la manipulation de données tabulaires
-Opérations sur les **matrices (`matrix_utils`)**
+Opérations sur les **matrices (`cMatrix`)**
 
 ---
 
