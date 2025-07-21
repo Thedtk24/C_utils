@@ -222,10 +222,10 @@ free(s);
 ## Exemple complet
 
 ```c
-#include "cPandas.h"
-#include "file_utils.h"
-#include "math_utils.h"
-#include "string_utils.h"
+#include "../include/cPandas.h"
+#include "../include/file_utils.h"
+#include "../include/math_utils.h"
+#include "../include/string_utils.h"
 
 int main() {
     DataFrame* df = df_read_csv("data.csv");
