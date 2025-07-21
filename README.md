@@ -28,6 +28,20 @@ gcc -Iinclude src/*.c main.c -o <nom_executable>
 ./<nom_executable>
 ```
 
+ou
+
+```
+make
+./a.out
+```
+
+
+Pour nettoyer les fichiers compilés :
+
+```
+make clean
+```
+
 ---
 
 ## Modules et Fonctions
